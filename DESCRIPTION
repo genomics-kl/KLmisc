@@ -1,0 +1,25 @@
+Package: KLmisc
+Title: Various functions for genomic analyses
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Kin",
+           family = "Lau",
+           role = c("aut", "cre"),
+           email = "kin.lau@vai.org")
+Description: Various functions for genomic analyses.
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+License: GPL-3
+Imports: 
+    dplyr (>= 0.8.5),
+    stringr (>= 1.4.0),
+    ggplot2 (>= 3.3.0),
+    forcats (>= 0.5.0),
+    tidyr (>= 1.0.2),
+    scales (>= 1.1.0),
+    rlang (>= 0.4.5),
+    tibble (>= 3.0.1),
+    methods (>= 3.6.0),
+    DOSE (>= 3.12.0)
