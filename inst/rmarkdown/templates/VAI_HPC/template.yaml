@@ -1,0 +1,4 @@
+name: VAI_HPC
+description: >
+   A template for working on the HPC at VAI.
+create_dir: FALSE
