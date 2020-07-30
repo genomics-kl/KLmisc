@@ -14,15 +14,39 @@ output:
     number_sections: true
 ---
 
+```{r starttime}
+# save start time for script
+start_ptm <- proc.time()
+start_ptm
+```
+
 ```{r setup, include=FALSE}
 # set the library path
 .libPaths("/secondary/projects/bbc/tools/kin_R_packages/R-3.6.0_20190701_pkges")
 
 knitr::opts_chunk$set(echo=TRUE, warning=TRUE, message=TRUE, cache=TRUE, dev=c('png','pdf'), fig.width=8, fig.height=8)
+
 ```
 
 # Packages loaded
 
 ```{r loadlibs, echo=TRUE, warning=TRUE, message=TRUE, cache=FALSE}
 library(KLmisc)
+```
+
+
+# SessionInfo
+
+```{r sessioninfo}
+sessionInfo()
+```
+
+# Time
+
+```{r endtime}
+# output time taken to run script
+end_ptm <- proc.time()
+end_ptm
+end_ptm - start_ptm
+
 ```
