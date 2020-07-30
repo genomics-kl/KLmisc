@@ -12,7 +12,6 @@ output:
       collapsed: true
       smooth_scroll: false
     number_sections: true
-  html_notebook: default
 ---
 
 ```{r setup, include=FALSE}
