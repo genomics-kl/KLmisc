@@ -21,9 +21,6 @@ start_ptm
 ```
 
 ```{r setup, include=FALSE}
-# set the library path
-.libPaths("/secondary/projects/bbc/tools/kin_R_packages/R-3.6.0_20190701_pkges")
-
 knitr::opts_chunk$set(echo=TRUE, warning=TRUE, message=TRUE, cache=TRUE, dev=c('png','pdf'), fig.width=8, fig.height=8)
 
 ```
@@ -31,7 +28,7 @@ knitr::opts_chunk$set(echo=TRUE, warning=TRUE, message=TRUE, cache=TRUE, dev=c('
 # Packages loaded
 
 ```{r loadlibs, echo=TRUE, warning=TRUE, message=TRUE, cache=FALSE}
-library(KLmisc)
+library(dplyr)
 ```
 
 
