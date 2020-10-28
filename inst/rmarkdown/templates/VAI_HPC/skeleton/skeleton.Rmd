@@ -12,6 +12,7 @@ output:
       collapsed: true
       smooth_scroll: false
     number_sections: true
+    css: dont_overlap_toc.css
 ---
 
 ```{r starttime}
