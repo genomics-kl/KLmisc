@@ -27,15 +27,17 @@ knitr::opts_chunk$set(echo=TRUE, warning=TRUE, message=TRUE, cache=TRUE, dev=c('
 ```
 
 ```{r make_outdir}
-outdir <- "./script_name_out/"
+outdir <- "./script_name_out_files/"
 
-if(!outdir %in% list.dirs()) dir.create(outdir, recursive=TRUE)
+dir.create(outdir, recursive=TRUE)
 ```
 
 # Packages loaded
 
 ```{r loadlibs, echo=TRUE, warning=TRUE, message=TRUE, cache=FALSE}
 library(dplyr)
+library(stringr)
+library(readr)
 ```
 
 
