@@ -17,8 +17,8 @@ output:
 
 ```{r starttime}
 # save start time for script
-start_ptm <- proc.time()
-start_ptm
+start_tm <- Sys.time()
+start_tm
 ```
 
 ```{r setup, include=FALSE}
@@ -51,8 +51,8 @@ sessionInfo()
 
 ```{r endtime}
 # output time taken to run script
-end_ptm <- proc.time()
-end_ptm
-end_ptm - start_ptm
+end_tm <- Sys.time()
+end_tm
+end_tm - start_tm
 
 ```
