@@ -15,6 +15,10 @@ output:
     css: dont_overlap_toc.css
 ---
 
+```{r keep_figures, cache=TRUE}
+# this chunk is just to keep the _files directory even when we turn off cacheing
+```
+
 ```{r starttime}
 # save start time for script
 start_tm <- Sys.time()
